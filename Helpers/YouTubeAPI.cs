@@ -15,7 +15,7 @@ namespace YTR
     public static class YouTubeAPI
     {
         private static readonly string API_URL = "https://www.googleapis.com/youtube/v3/";
-        private static readonly string API_KEY = "?key=AIzaSyCHvqng2rLoA8-Ne8W_e287luh-bsnaggs";
+        private static readonly string API_KEY = "?key=blahblahb"; // change
 
         public static SingleVideo.RootObject VideoDetails(Http http, string id)
         {
